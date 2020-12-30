@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="335dp"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:background="@drawable/shapecard">
+    <TextView
+        android:id="@+id/textone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home "
+        android:textSize="17sp"
+        android:fontFamily="@font/montserratitalic"
+       android:layout_marginTop="12dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginBottom="11dp"
+        android:textColor="@color/black"
+        android:padding="2dp"
+       />
+    <TextView
+        android:id="@+id/texttwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3 tasks "
+        android:textSize="17sp"
+        android:fontFamily="@font/montserratitalic"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginBottom="11dp"
+        android:textColor="@color/black"
+        android:padding="2dp"
+        />
+</LinearLayout>

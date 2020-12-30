@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "987113740477",
+    "project_id": "labfinaly",
+    "storage_bucket": "labfinaly.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987113740477:android:cbd64c0e6b2f8c3f2bffd4",
+        "android_client_info": {
+          "package_name": "com.example.labfinaly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "987113740477-ehcqkv4ss763k3qgd0jqeu8e26a43cad.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.labfinaly",
+            "certificate_hash": "ab2b0598f2efe8756e855667cbd5acc428df2b1a"
+          }
+        },
+        {
+          "client_id": "987113740477-ru03fjhmdr0jkhsdia4hk64ia04fb1e6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeIBeKBZ2ezX2Tuu4zx1UE65uCF4BWnKM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "987113740477-ru03fjhmdr0jkhsdia4hk64ia04fb1e6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

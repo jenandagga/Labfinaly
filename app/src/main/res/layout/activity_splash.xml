@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Splash"
+    android:background="@color/colorbackground">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/group"
+        android:layout_marginTop="299dp"
+        android:layout_marginLeft="155dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Things ToDo"
+        android:textSize="25sp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="2dp"
+        android:padding="2dp"
+android:textColor="@color/white"
+        android:fontFamily="@font/montserratbold"
+        />
+
+    <TextView
+        android:id="@+id/textlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="next "
+
+        android:textSize="28sp"
+        android:fontFamily="@font/montserratbold"
+        android:layout_marginTop="230dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="300dp"/>
+</LinearLayout>
