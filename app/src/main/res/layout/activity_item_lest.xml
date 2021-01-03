@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_700"
+    android:orientation="vertical"
+    tools:context=".Datalist">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/back"
+            android:textColor="@color/white"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="List to do"
+            android:fontFamily="@font/montserratitalic"
+            android:textColor="@color/white"
+            android:textSize="20dp"/>
+
+
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/listTitle"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="80dp"
+        android:text="List:"
+        android:textColorHint="@color/white"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"/>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:text="+ add new task"
+        android:backgroundTint="@color/purple_700"
+        android:textColorHint="@color/white"
+        android:textSize="14dp"
+        android:gravity="left"
+
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/addLayer"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/taskTitle"
+            android:layout_width="200dp"
+            android:hint="EnterListTitle"
+            android:textColorHint="@color/white"
+            android:layout_height="wrap_content"/>
+        <EditText
+        android:id="@+id/desc"
+        android:layout_width="200dp"
+        android:hint="description"
+        android:textColorHint="@color/white"
+        android:layout_height="wrap_content"/>
+        <Button
+
+            android:id="@+id/addtask"
+            android:layout_width="wrap_content"
+            android:text="add"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/task_rv"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>
