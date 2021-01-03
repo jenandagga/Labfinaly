@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#630691">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp">
+            <TextView
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="40dp"
+                android:fontFamily="@font/montserratitalic"
+                android:text="Create Profile to \n start your first\n ToDo list"
+                android:textColor="@color/white"/>
+        </RelativeLayout>
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="30dp">
+
+            <LinearLayout
+                android:id="@+id/login_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+
+                android:orientation="vertical" >
+
+
+
+                <EditText
+
+                    android:id="@+id/username_input"
+                    android:singleLine="true"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical"
+                    android:hint="User Name"
+                    android:fontFamily="@font/montserratitalic"
+                    android:textColor="@color/white"
+                    android:background="@drawable/rectangle"
+                    android:inputType="textEmailAddress"
+                    android:padding="10dp"
+                    android:textDirection="ltr"
+                    android:textColorHint="@color/white"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="@color/white" />
+
+                <EditText
+                    android:id="@+id/pass"
+                    android:singleLine="true"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="8dp"
+                    android:background="@drawable/rectangle"
+                    android:fontFamily="@font/montserratitalic"
+                    android:textDirection="ltr"
+                    android:gravity="center_vertical"
+                    android:hint="passowrd"
+                    android:inputType="textPassword"
+                    android:padding="10dp"
+                    android:layout_marginTop="5dp"
+                    android:textColorHint="@color/white"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="@color/white" />
+
+                <EditText
+                    android:id="@+id/email"
+                    android:singleLine="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="8dp"
+                    android:background="@drawable/rectangle"
+                    android:fontFamily="@font/montserratitalic"
+                    android:textDirection="ltr"
+                    android:gravity="center_vertical"
+                    android:hint="emailAddress"
+                    android:inputType="textEmailAddress"
+                    android:padding="10dp"
+                    android:textColorHint="@color/white"
+                    android:textSize="16sp" />
+
+
+
+                <Button
+                    android:onClick="login"
+                    android:id="@+id/signup"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:backgroundTint="#FF6D00"
+                    android:padding="3dp"
+                    android:text="create your account"
+
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    android:fontFamily="@font/montserratitalic" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Already hava an account?"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
